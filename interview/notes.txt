@@ -1,0 +1,99 @@
+Abstract method :-
+
+An abstract class can be considered as a blueprint for other classes. It allows you to create a set of methods 
+that must be created within any child classes built from the abstract class. A class which contains one or 
+more abstract methods is called an abstract class. An abstract method is a method that has a declaration but 
+does not have an implementation. While we are designing large functional units we use an abstract class. When
+we want to provide a common interface for different implementations of a component, we use an abstract class.
+
+It is a method which will be having function declaration , but which will be not having function defination or
+method defination.
+
+Abstrfact class
+and inner class ---- if the class consist of atleast one abstract method then this is called Abstract class
+here both  have function defination and declaration 
+we cant create the object 
+
+why abstraction is used ?
+it is used to hide the implimentation or basically it is used in real time application to creat a blue print 
+before creating any project 
+
+from abc import ABC, abstractmethod
+abc === > abstract base class 
+
+what is concrete class ?
+.it is nothing but if the class , it does not contain any abstract method inside it then it is called concrete 
+class 
+.If the class doesnot consits of any abstract methods then we can called it as concrete class 
+
+
+abstfract method === > it is a phenomenon of hiding the data or properties of the class from the user
+
+absraction is a process of hiding the data from the user for the purpose of security 
+in abstraction we will come across 2 terms
+1. abstract class 
+2. abstract method 
+
+
+abstract method:-
+abstract method is a method which consist of only function declaration but not the function defination 
+def sam():
+    pass 
+
+abstract class:-
+. if the class consist of atleast one abstract method , then we can called it as Abstract class 
+. it is not possible to creat abstract class and abstract method directly, for that we are going to make use
+of abc module 
+. from abc module we are going to import the functionalities of a class called ABC(abstract base class) and 
+the functionality of abstract method 
+
+
+NOTE ==>
+. It is not possible to creat objects for abstract class  
+
+sysntax to creat abstract method and class is :-
+
+		from abc import ABC, abstractmethod
+
+		class cname(ABC):
+			@abstractmethod
+			def fname():
+				pass
+
+
+Inheritance:- 
+
+. Inheritance enables us to define a class that takes all the functionality from a parent class and allows us 
+to add more. 
+. It is a phenomenon of deriving or aquiring the proporties and the functionalities of one class into another 
+class
+. we go for inheritrance to avoid code redundancy problem 
+
+
+
+Polling time in Selenium:- 
+
+The default polling time is 500 mili seconds. So until your wait condition is true and the specified time is
+ not over , the WebDriver checks for the element once every 500 mili seconds.
+
+
+Multi threading:- 
+Multithreading is a model of program execution that allows for multiple threads to be created within a 
+process, executing independently but concurrently sharing process resources
+
+polymorphism:-
+. The literal meaning of polymorphism is the condition of occurrence in different forms. Polymorphism is a 
+very important concept in programming. It refers to the use of a single type entity (method, operator or 
+object) to represent different types in different scenarios.
+
+. It is a phenomenon of making the methods and operators to work on different objects/functionality/functions
+
+
+wait :-
+The wait commands are essential when it comes to executing Selenium tests. They help to observe and 
+troubleshoot issues that may occur due to variation in time lag. While running Selenium tests, it is common 
+for testers to get the message “Element Not Visible Exception".
+
+
+
+
